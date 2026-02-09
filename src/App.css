@@ -1,5 +1,3 @@
-
-
 .app{
     height: 100%;
     background: linear-gradient(to bottom, #f4f2, #fff);
@@ -61,6 +59,10 @@
     padding: 0 25px;
     border-radius: 10px;
     box-sizing: border-box;
+}
+.app .login-container .input-group .error,
+.app .signup-container .input-group .error{
+    border: 1px solid red;
 }
 .app .login-container .forgot-password{
     width: 100%;
